@@ -6,6 +6,7 @@
     list-style: none;
 }
 
+/* delimita mas nao muda a orientacao */
 .flexbox {
     max-width: 200px;
     padding: 10px;
@@ -13,11 +14,18 @@
     display: flexbox;
 }
 
+/* delimita e coloca todo mundo em row */
 .flex {
     max-width: 300px;
     padding: 10px;
     border: 2px solid black;
     display: flex;
+}
+
+/* formata os itens dentro das divs */
+.item {
+    background-color: greenyellow;
+    margin: 5px;
 }
 
 .flex-item {
@@ -28,11 +36,6 @@
     font-size: 20px;
     color: white;
     text-align: center;
-    margin: 5px;
-}
-
-.item {
-    background-color: greenyellow;
     margin: 5px;
 }
 
