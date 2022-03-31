@@ -28,6 +28,7 @@
     margin: 5px;
 }
 
+/* formata itens detro de uma lista */
 .flex-item {
     background: peru;
     height: 50px;
@@ -39,19 +40,23 @@
     margin: 5px;
 }
 
+/* modo default linha */
 .row {
     flex-direction: row;
 }
 
+/* linha invertida */
 .row-reverse {
     flex-direction: row-reverse;
 }
 
+/* em coluna */
 .column {
     float: left;
     flex-direction: column;
 }
 
+/* em coluna invertida */
 .column-reverse {
     float: right;
     flex-direction: column-reverse;
