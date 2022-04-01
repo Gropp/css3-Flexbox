@@ -154,7 +154,7 @@ td.botao button {
     font-size: 20px;
     margin: 2px;
     border-radius:50%;
-    cursor:crosshair;
+    cursor: zoom-in;
     overflow: auto;
 }
 
@@ -200,6 +200,7 @@ td.botao button {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: help;
     overflow: auto;
 }
 
