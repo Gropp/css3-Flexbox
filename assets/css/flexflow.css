@@ -1,0 +1,67 @@
+/* folha de estilo para teste do flexflow */
+
+.flex-container {
+    display: flex;
+    /* borda para ver os limites da div flex-container */
+    border: 1px solid black;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.item {
+    width: 100px;
+    height: 30px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.default{
+    flex-flow: row nowrap;
+}
+
+.nowraprow-reverso{
+    flex-flow: row-reverse nowrap;
+}
+
+.wrap {
+    flex-flow: row wrap;
+}
+
+.wrap-reverso {
+    flex-flow: row wrap-reverse;
+}
+
+.wraprow-reverso {
+    flex-flow: row-reverse wrap;
+}
+
+.wrap-reverso-row-reverso {
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.violeta {
+    background-color: #845EC2;
+}
+
+.rosa {
+    background-color: #D65DB1;
+}
+
+.rosaclaro {
+    background-color: #FF6F91;
+}
+
+.laranja {
+    background-color: #FF9671;
+}
+
+.laranjaclaro {
+    background-color: #FFC75F;
+}
+
+.amarelo {
+    background-color: #F9F871;
+}
