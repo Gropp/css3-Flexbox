@@ -173,7 +173,7 @@ li.flex-item {
 }
 
 .img {
-    background-image: url(/assets/imgs/dep.png);
+    background-image: url(../imgs/dep.png);
     background-size: 30px 30px;
 }
 
